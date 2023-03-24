@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "edu ssafy extension",
+  "description": "auto login extension for ssafy",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://edu.ssafy.com/edu/main/index.do"],
+      "js": ["index.js"]
+    }
+  ]
+}
